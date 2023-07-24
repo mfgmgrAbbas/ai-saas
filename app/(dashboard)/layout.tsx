@@ -1,4 +1,5 @@
-import Navbar from '@/components/ui/navbar'
+import Sideabr from '@/components/sidebar'
+import Navbar from '@/components/navbar'
 import React from 'react'
 
 const DashboardLayout = ({
@@ -10,9 +11,7 @@ const DashboardLayout = ({
     <div className='h-full relative'>
         <div className='hidden h-full md:flex md:flex-col md:fixed
         md:w-72 md:inset-y-0 z-[80] bg-gray-900 '>
-            <div>
-                Hello sidebar
-            </div>
+            <Sideabr />
         </div>
         <main className='md:pl-72'>
         <Navbar />

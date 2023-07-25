@@ -9,3 +9,8 @@ npx shadcn-ui@latest add button
 
 
 npm install @clerk/nextjs
+
+install sheet from shadcn
+
+npx shadcn-ui@latest add sheet
+
